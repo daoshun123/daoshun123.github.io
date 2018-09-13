@@ -1,7 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,700,500);
+/* @import url(https://fonts.googleapis.com/css?family=Raleway:400,700,500); */
 body {
   padding-top: 100px;
-  background: #454349;
+  background: #3A3A3A;
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
   color: #282828;
@@ -328,9 +328,6 @@ ul.nostyle i {
 #cta2 h2 > span {
   color: #45aed6;
 }
-#pricing h2, #pricing p{
-  color:#fff !important;
-}
 #features h2{ color: #C3C3C3;}
 #features {
   padding: 100px 0;
@@ -387,7 +384,7 @@ ul.nostyle i {
   font-size: 24px;
 }
 .demo-2 {
-  margin-top: 0px !important;
+  /* margin-top: 0px !important; */
   margin-bottom: 0px !important;
 }
 .features .media.service-box .pull-left > i{
@@ -555,8 +552,9 @@ ul.nostyle i {
   background: url('../images/img2.jpg');
   background-size: cover;
 }
-#testimonial h2, #testimonial p{
+#testimonial h2 {
   color:#fff;
+  font-size: 24px;
 }
 #testimonial h4 {
   color: #fff;
@@ -1040,17 +1038,8 @@ ul.nostyle i {
  #about .cases-item {
    margin-bottom: 15px;
  }
- .sl-slide-inner .slide-text {
-   position: absolute;
-   bottom: 50px;
-   left: 0px;
-   color: #fff;
-   z-index: 2;
-   width: 100%;
- }
- .sl-slide-inner .slide-text p {
+ .navbar-brand span {
+   display: block;
+   color: #F6CC07;
    text-align: center;
- }
- .sl-slide-inner .slide-text span {
-   font-size: 40px;
  }
