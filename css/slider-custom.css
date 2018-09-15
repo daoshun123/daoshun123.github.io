@@ -1201,7 +1201,7 @@
 #slider-2 .text-content {
   height: 56px;
   top: 50%;
-  margin-top: -28px;
+  /* margin-top: -28px; */
   left: 20%;
 }
 #slider-1 .text-content p:nth-child(1) {
