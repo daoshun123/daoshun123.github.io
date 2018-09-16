@@ -575,7 +575,7 @@
   }
 
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
   .demo-2 #slider-1 .text-content p:nth-child(1),
   .demo-2 #slider-2 .text-content p:nth-child(1),
   .demo-2 #slider-3 .text-content p:nth-child(1),
@@ -1203,12 +1203,10 @@
 #slider-1 .text-content {
   text-align: center;
   height: 56px;
-  top: 50%;
-  margin-top: -28px;
-  width: 255px;
-  margin-left: 60px;
+  top: 50%;  
+  width: 100%;
+  margin-left: -40px;
   margin-top: 0px;
-  color: #f6cc07;
 }
 #slider-2 .text-content {
   height: 56px;
